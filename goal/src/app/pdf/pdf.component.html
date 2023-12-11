@@ -1,0 +1,38 @@
+<div class="all">
+
+    <form [formGroup]="datos">
+        <br>
+        <h1>ENVIAR CURRICULUM</h1>
+       <div class="form-group pdfcv">
+        <br><br><br>
+        <strong>Añadir Envío   </strong> 
+        <input  type="file" (change)="getFile($event)"/>
+       </div>
+       <div class="betene">
+        <br><br><br><br>
+       <button type="submit" (click)="sendPDF()" (click)="sendFile()" data-bs-toggle="modal" data-bs-target="#exampleModal">Submit</button>
+      </div>
+       <!-- Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel">¡Se ha enviado!</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          ¡Recibimos tu curriculum con éxito!
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+    </form>
+    <br><br><br><br><br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br><br><br><br><br>
+    <br><br>
+
+</div>

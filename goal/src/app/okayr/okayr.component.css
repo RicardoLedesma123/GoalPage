@@ -1,0 +1,44 @@
+h3{
+    text-align: center;
+}
+
+.container{
+    background-color: lightgrey;
+    opacity: 98%;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    border-radius: 10px;
+    text-align: center;
+    
+}
+
+
+.name{
+    text-align: center;
+    width: 200px;
+    margin-left: 530px;
+}
+
+.cuenta{
+    text-align: center;
+    width: 200px;
+    margin-left: 530px;
+}
+
+.correo{
+    text-align: center;
+    width: 200px;
+    margin-left: 530px;
+}
+
+.pass1{
+    text-align: center;
+    width: 200px;
+    margin-left: 530px;
+}
+
+.pass2{
+    text-align: center;
+    width: 200px;
+    margin-left: 530px;
+}

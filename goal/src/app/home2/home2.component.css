@@ -1,0 +1,123 @@
+.carousel-item{
+    text-align: center;
+    bottom: 40px;
+}
+
+.nav-link{
+    color: aliceblue;
+}
+
+
+.carousel-inner{
+    position: absolute;
+    top: 40px;
+}
+.carousel-control-next{
+    position: absolute;
+    top:240px;
+}
+
+.carousel-control-prev{
+    position: absolute;
+    top:240px;
+}
+
+.carousel-indicators{
+    position: absolute;
+    top: 420px;
+}
+
+strong{
+    font-size: 25px;
+    background: linear-gradient(black, black);
+    -webkit-background-clip: text;
+    color: transparent;
+    -webkit-text-stroke: 0.35px white;
+    color: transparent;
+}
+
+h2{
+    -webkit-text-stroke: 0.30px white;
+    color: transparent;
+    color: black;
+}
+
+.card{
+    position: absolute;
+    top: 470px;
+    left: 90px;
+}
+
+.card-title{
+    text-align: center;
+}
+
+.new1{
+    position: absolute;
+    top: 480px;
+    left: 400px;
+}
+
+.italic{
+    position: absolute;
+    font-style: italic;
+    left: 740px;
+    top: 450px;
+}
+
+.GB{
+    font-style: oblique;
+    position: absolute;
+    left: 400px;
+    top: 730px;
+}
+
+.GB1{
+    font-style: oblique;
+    position: absolute;
+    left: 400px;
+    top: 760px;
+}
+
+.new2{
+    position: absolute;
+    top: 480px;
+    left: 820px;
+}
+
+.TY{
+    font-style: oblique;
+    position: absolute;
+    left: 820px;
+    top: 730px;
+}
+
+.spinner-grow{
+    position: absolute;
+    left: 1350px;
+    top: 550px;
+}
+
+.spinner-border{
+    position: absolute;
+    left: 1301px;
+    top: 590px;
+}
+
+h6{
+    text-align: center;
+}
+
+.acc{
+    position: absolute;
+    left: 900px;
+    top: -66px;
+}
+
+.acc img{
+    border-radius: 20px;
+}
+
+.h2todo{
+    filter: grayscale(100%);
+}

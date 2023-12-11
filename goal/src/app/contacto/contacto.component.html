@@ -1,0 +1,99 @@
+<div class="todo">
+  <form [formGroup]="datos">
+    <div>
+      <div class="todo">
+        <div class="correo">
+            <label for="exampleFormControlInput1" class="correo"></label>
+            <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com" formControlName="correo">
+        </div>
+        <div class="asunto">
+          <input class="form-control" type="text" placeholder="Asunto" formControlName="asunto" aria-label="default input example">
+        </div>
+        <div class="msg">
+                <label for="exampleFormControlTextarea1" class="form-label"></label>
+                <textarea class="form-control" id="exampleFormControlTextarea1" rows="2"></textarea>
+        </div>
+       <div class="btncorreo">
+          <button type="button" class="btn btn-primary" (click)="enviocorreo()" data-bs-toggle="modal" data-bs-target="#exampleModal">Enviar Correo</button>
+       </div>
+      </div>
+   </div>
+  </form>
+<div class="hr1">
+    <hr>
+</div>
+
+<div class="hr2">
+    <hr>
+</div>
+
+<div class="Toronto">
+    <strong>Toronto</strong>
+</div>
+<div class="LA">
+    <strong>Los Angeles</strong>
+</div>
+<div class="Madrid">
+    <strong>Madrid</strong>
+</div>
+
+<div class="TDir">
+    <h6>3 DOVERCOURT</h6>
+    <h6>RD, TORONTO, ON M6J 3C2</h6>
+</div>
+<div class="TDir2">
+    <h6>TEL: +416-531-5263 </h6>
+</div>
+
+<div class="LADir">
+    <h6>555 ROSE AVE, VENICE,</h6>
+    <h6>CA, 90291</h6>
+</div>
+
+
+<div class="LADir2">
+    <h6>TEL: +310-392-2112 </h6>
+</div>
+
+<div class="MDir">
+    <h6>Luchana, 4</h6>
+    <h6>Chamberi, Madrid, 28010</h6>
+</div>
+<div class="MDir2">
+    <h6>TEL: +919-186-247 </h6>
+</div>
+<br><br><br><br><br>
+
+<div class="spinner-grow text-danger" role="status">
+    <span class="visually-hidden">Loading...</span>
+</div>
+<div class="cir">
+    <div class="spinner-grow text-primary" role="status">
+        <span class="visually-hidden">Loading...</span>
+      </div>
+</div>
+
+<div class="cir2">
+    <div class="spinner-grow text-dark" role="status">
+        <span class="visually-hidden">Loading...</span>
+      </div>
+</div>
+
+<!-- Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title env" id="exampleModalLabel">¡ENVIADO!</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          ¡Gracias por tus comentarios!
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  

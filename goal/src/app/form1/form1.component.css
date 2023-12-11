@@ -1,0 +1,73 @@
+.container{
+    background-color: lightgrey;
+    opacity: 98%;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    border-radius: 10px;
+    text-align: center;
+    
+}
+
+.rad{
+    margin-left: 20px;
+}
+
+.rad1{
+    margin-left: 20px;
+}
+
+h5{
+    margin-left: 18px;
+}
+
+.id{
+    text-align: center;
+    width: 100px;
+    margin-left: 580px;
+}
+
+.name{
+    text-align: center;
+    width: 200px;
+    margin-left: 530px;
+}
+
+.fecha{
+    text-align: center;
+    width: 200px;
+    margin-left: 530px;
+}
+
+.lista{
+    text-align: center;
+    width: 200px;
+    margin-left: 530px;
+}
+
+.puesto{
+    text-align: center;
+    width: 200px;
+    margin-left: 530px;
+}
+
+.exp{
+    text-align: center;
+    width: 200px;
+    margin-left: 530px;
+}
+
+.mod{
+    text-align: center;
+    width: 200px;
+    margin-left: 530px;
+}
+
+.sueldo{
+    text-align: center;
+    width: 200px;
+    margin-left: 530px;
+}
+
+h3{
+    text-align: center;
+}

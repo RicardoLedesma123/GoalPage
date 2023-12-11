@@ -1,0 +1,87 @@
+<h3>Dar de alta</h3>
+<div class="container">
+
+
+  <div class="container mt-5">
+    <div class="dropdown " id="drop">
+     
+   
+          <div class="mb-3">
+            <label for="exampleInputEmail1" class="form-label">Id</label>
+            <input type="email" class="form-control id" [(ngModel)]="id" aria-describedby="emailHelp">
+          </div>
+          <div class="mb-3">
+            <label for="exampleInputPassword1" class="form-label">Nombre del equipo</label>
+            <input type="text" class="form-control name" [(ngModel)]="company">
+          </div>
+          <div class="mb-3">
+              <label for="exampleInputPassword1" class="form-label">Fecha registro m/dd/aa</label>
+              <input type="text" class="form-control fecha" [(ngModel)]="fecha">
+            </div>
+
+          <div class="mb-3">
+             <label for="exampleInputPassword1" class="form-label">Giro</label>
+              <select class="form-select lista" aria-label="Default select example" [(ngModel)]="lista">
+                  <option value="1">Futbolista</option>
+                  <option value="2">DT</option>
+                  <option value="3">Directivo</option>
+                  <option value="4">Mantenimiento</option>
+                </select>
+                
+            </div>
+            <div class="mb-3">
+              <label for="exampleInputPassword1" class="form-label">Puesto</label>
+              <input type="text" class="form-control puesto" [(ngModel)]="puesto">
+            </div>
+            <div class="mb-3">
+              <label for="exampleInputPassword1" class="form-label">Experiencia</label>
+              <input type="text" class="form-control exp" [(ngModel)]="exp">
+            </div>
+            <div class="mb-3">
+            <label for="exampleInputPassword1" class="form-label">Modalidad</label>
+            <input type="text" class="form-control mod" [(ngModel)]="modalidad">
+          </div>
+          <div class="form-check form-check-inline">
+            <input class="form-check-input" type="radio" name="inlineRadioOptions" [(ngModel)]="modalidad" id="inlineRadio1" value="remoto">
+            <label class="form-check-label" for="inlineRadio1">Remoto</label>
+          </div>
+          <div class="form-check form-check-inline">
+            <input class="form-check-input" type="radio" name="inlineRadioOptions" [(ngModel)]="modalidad" id="inlineRadio2" value="presencial">
+            <label class="form-check-label" for="inlineRadio2">Presencial</label>
+          </div>
+          <div class="form-check form-check-inline">
+            <input class="form-check-input" type="radio" name="inlineRadioOptions" [(ngModel)]="modalidad" id="inlineRadio3" value="hibrido">
+            <label class="form-check-label" for="inlineRadio3">Hibrido</label>
+          </div>
+                <div class="mb-3">
+                  <label for="exampleInputPassword1" class="form-label">Sueldo</label>
+                  <input type="text" class="form-control sueldo" [(ngModel)]="sueldo">
+                </div>
+               
+
+          <button type="submit" class="btn btn-primary" (click)="register2()" data-bs-toggle="modal" data-bs-target="#exampleModal"
+          >Dar alta</button>
+          <br><br>
+    </div>
+
+  </div>
+
+</div>
+<!-- Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">¡ENVIADO!</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        ¡Su publicación se ha dado de alta!
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+<br><br><br>

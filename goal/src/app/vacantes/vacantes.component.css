@@ -1,0 +1,24 @@
+.tarjeta{
+    text-align: center;
+    height: 440px;
+}
+
+.cart{
+    display: flex;
+    justify-content: space-around;
+    display: grid;  
+    grid-template-columns: [x0] 1fr [x1] 1fr [x2] 1fr [x3] 1fr [x4] 1fr [x5];  
+    grid-template-rows: [y0] 1fr [y1] 1fr [y2] 1fr [y3] 1fr [y4];
+}
+
+/* .buscar{
+    margin-bottom: 7800px;
+} */
+
+.comp{
+    text-align: center;
+}
+
+.vac{
+    text-align: center;
+}

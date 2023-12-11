@@ -1,0 +1,144 @@
+.todo{
+    text-align: center;
+}
+
+.btncorreo{
+    text-align: center;
+    position: absolute;
+    left: 700px;
+    top: 300px;
+}
+
+h4{
+    font-size: 30px;
+}
+
+.asunto{
+    position: absolute;
+    height: 300px;
+    width: 200px;
+    left: 658px;
+    top: 160px;
+}
+.correo{
+    position: absolute;
+    height: 300px;
+    width: 200px;
+    left: 658px;
+    top: 100px;
+}
+
+.msg{
+    text-align: center;
+    position: absolute;
+    height: 900px;
+    width: 900px;
+    left: 300px;
+    top: 200px;
+}
+
+.Madrid{
+    text-align: center;
+    font-size: 35px;
+    padding-top: 220px;
+    padding-right: 900px;
+}
+
+.Toronto{
+    text-align: center;
+    font-size: 35px;
+    padding-top: 320px;
+    padding-right: 900px;
+}
+
+.LA{
+    text-align: center;
+    font-size: 35px;
+    padding-top: 170px;
+    padding-right: 900px;
+}
+
+.hr1 {
+    position: absolute;
+    top: 470px;
+    left: 170px;
+    width: 75%;
+}
+
+.hr2{
+    position: absolute;
+    top: 700px;
+    left: 170px;
+    width: 75%;
+}
+
+.TDir{
+    position: absolute;
+    text-align: center;
+    top: 390px;
+    right: 300px;
+    color: gray;
+}
+
+.TDir2{
+    position: absolute;
+    text-align: center;
+    top: 450px;
+    right: 330px;
+    color: black;
+}
+
+.spinner-grow{
+    position: absolute;
+    text-align: center;
+    top: 410px;
+    right: 540px;
+}
+
+.LADir{
+    position: absolute;
+    text-align: center;
+    top: 610px;
+    right: 300px;
+    color: gray;
+}
+
+.LADir2{
+    position: absolute;
+    text-align: center;
+    top: 675px;
+    right: 330px;
+}
+
+.cir{
+    position: absolute;
+    text-align: center;
+    top: 220px;
+    right: -3px;
+}
+
+.MDir{
+    position: absolute;
+    text-align: center;
+    top: 860px;
+    right: 300px;
+    color: gray;
+}
+
+.MDir2{
+    position: absolute;
+    text-align: center;
+    top: 920px;
+    right: 330px;
+}
+
+.cir2{
+    position: absolute;
+    text-align: center;
+    top: 470px;
+    right: -3px
+}
+
+.h5 env{
+    text-align: center;
+}

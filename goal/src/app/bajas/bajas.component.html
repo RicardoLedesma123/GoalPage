@@ -1,0 +1,45 @@
+<div class="cart">
+    <div class="cards" *ngFor="let i of array">
+      <br>
+    
+      <div class="card" style="width: 12rem;">
+        
+          <img class="card-img-top" src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/70/Goal-com_Logo.svg/1073px-Goal-com_Logo.svg.png" width="300">
+    
+          <div class="card-body tarjeta">
+            <h5 class="card-title">{{i.company}}</h5>
+            <p class="card-text">Vacante de empleo</p>
+            <p class="card-text">{{i.id}}</p>
+            <p class="card-text">{{i.fecha}}</p>
+            <p class="card-text">{{i.lista}}</p>
+            <p class="card-text">{{i.puesto}}</p>
+            <p class="card-text">{{i.exp}}</p>
+            <p class="card-text">{{i.modalidad}}</p>
+            <p class="card-text">{{i.sueldo}}</p>
+            <!-- <input class="btn btn-primary" type="submit" href="./pdf" value="Postularme"> -->
+            <p></p>
+            </div>
+          </div> 
+      </div>
+      <div class="input-group mb-3 bajab">  
+        <button class="btn btn-danger" type="button" id="button-addon1" data-bs-toggle="modal" data-bs-target="#exampleModal">Dar de baja</button>  
+        <input type="text" [(ngModel)]="id" class="form-control" placeholder="" aria-label="Example text with button addon" aria-describedby="button-addon1"></div>
+        <!-- Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">DAR DE BAJA</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        ¿Estás seguro de que quieres darlo de baja?
+      </div>
+      <div class="modal-footer">
+        <button type="button" (click)='baja()' class="btn btn-danger" data-bs-dismiss="modal">Dar de baja</button>
+      </div>
+    </div>
+  </div>
+</div>
+    </div>
+    

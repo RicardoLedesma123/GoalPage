@@ -1,0 +1,35 @@
+<h3>Registrarse</h3>
+<div class="container">
+
+
+  <div class="container mt-5">
+    <div class="dropdown " id="drop">
+            <div class="mb-3">
+              <label for="exampleInputPassword1" class="form-label">Nombre</label>
+              <input type="text" class="form-control name" [(ngModel)]="name">
+            </div>
+            <div class="mb-3">
+              <label for="exampleInputPassword1" class="form-label">Cuenta</label>
+              <input type="text" class="form-control cuenta" [(ngModel)]="cuenta">
+            </div>
+            <div class="mb-3">
+            <label for="exampleInputPassword1" class="form-label">Correo</label>
+            <input type="text" class="form-control correo" [(ngModel)]="correo">
+          </div>
+            <div class="mb-3">
+                <label for="exampleInputPassword1" class="form-label">Contraseña</label>
+                <input type="password" class="form-control pass1" [(ngModel)]="pass1">
+            </div>
+            <div class="mb-3">
+                <label for="exampleInputPassword1" class="form-label">Confirmar Contraseña</label>
+                <input type="password" class="form-control pass2" [(ngModel)]="pass1">
+            </div>
+            <br>
+          <button type="submit" class="btn btn-primary" (click)="register3()">Registrar</button>
+          <br><br>
+    </div>
+
+  </div>
+
+</div>
+<br><br><br><br><br>
